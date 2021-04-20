@@ -5,13 +5,13 @@ args << range 16
 
 // display the array generator on the screen:
 foreach ( i args )
-  i [ echo << true ]
+  i [ print << true ]
 // 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
 
 
 // display the array generator on the screen:
 foreach i , args
-  i [ echo << true ]
+  i [ print << true ]
 // 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
 
 
@@ -22,7 +22,7 @@ j << 1 , 2 // array { 1 2 1 2 }
 
 // display the array on the screen:
 foreach ( i j )
-  i [ echo << true ]
+  i [ print << true ]
 // 1 2 1 2
 
 
@@ -32,10 +32,10 @@ j : 1 2 ; // array { 1 2 }
 
 // display the array on the screen:
 foreach i , j
-  i [ echo << true ]
+  i [ print << true ]
 // 1 2
 
-j [ echo << true ]
+j [ print << true ]
 // array { 1 2 }
 
 
