@@ -9,7 +9,7 @@ j << 1 , 2 // array { 1 2 1 2 }
 foreach ( i j ) i [ echo << true ] // equale:
 // 1 2 1 2
 
-j : 1 2 ; // 1 2
+j : 1 2 ; // array { 1 2 }
 
 foreach i , j i [ echo << true ]
 // 1 2
