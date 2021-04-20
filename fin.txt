@@ -30,9 +30,13 @@ foreach ( i j )
 j : 1 2 ; // array { 1 2 }
 
 
+
+echo << array { i [ print << true ] }
+
+
 // display the array on the screen:
 foreach i , j
-  i [ print << true ]
+  echo
 // 1 2
 
 j [ print << true ]
