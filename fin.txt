@@ -36,8 +36,9 @@ echo << array { i [ print << true ] }
 
 // display the array on the screen:
 foreach i , j
-  echo
+  echo // i [ print << true ]
 // 1 2
+
 
 j [ print << true ]
 // array { 1 2 }
@@ -47,11 +48,13 @@ j [ print << true ]
 cout << j
 // array { 1 2 }
 
+
 // now this object does not assign anything to itself, \
 losing all settings and methods, as well as data:
 cout : ;
 // now it is not an object for displaying data on the screen, \
 but just an ordinary variable that has lost its methods, etc.
+
 
 // after executing your script, the interpreter starts, so an explicit exit is required:
 exit
