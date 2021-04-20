@@ -30,7 +30,7 @@ foreach ( i j )
 j : 1 2 ; // array { 1 2 }
 
 
-
+// create an operator to display "i":
 echo << array { i [ print << true ] }
 
 
