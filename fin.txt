@@ -40,6 +40,7 @@ foreach i , j
 // 1 2
 
 
+// array display:
 j [ print << true ]
 // array { 1 2 }
 
