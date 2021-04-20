@@ -1,4 +1,4 @@
-for ( i range ( 16 ) ) echo << i
+for ( i range ( 16 ) ) i [ echo = true ]
 
 i = 1 , 2
 
