@@ -1,6 +1,6 @@
-for ( i range ( 16 ) ) i [ echo = true ]
+for i , range ( 16 ) i [ echo << true ]
 
-i = 1 , 2
+i << 1 , 2
 
-for ( j i ) j [ echo = true ]
+for ( j i ) j [ echo << true ]
 
