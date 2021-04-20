@@ -1,29 +1,41 @@
+// save the array generator:
 args << range 16
 // range 0 , 16 , 1
 
+
+// display the array generator on the screen:
 foreach ( i args )
   i [ echo << true ]
 // 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
 
 
+// display the array generator on the screen:
 foreach i , args
   i [ echo << true ]
 // 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
 
 
+// demonstration of how adding to an array works:
 j << 1 , 2 // array { 1 2 }
 j << 1 , 2 // array { 1 2 1 2 }
 
 
+// display the array on the screen:
 foreach ( i j )
   i [ echo << true ]
 // 1 2 1 2
 
 
+// demonstration of how assignment works:
 j : 1 2 ; // array { 1 2 }
 
 
+// display the array on the screen:
 foreach i , j
   i [ echo << true ]
 // 1 2
 
+j [ echo << true ]
+// array 1 , 2
+// or:
+// array { 1 2 }
