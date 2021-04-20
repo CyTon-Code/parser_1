@@ -37,3 +37,8 @@ foreach i , j
 
 j [ echo << true ]
 // array { 1 2 }
+
+
+// after executing your script, the interpreter starts, so an explicit exit is required:
+exit
+
