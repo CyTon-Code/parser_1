@@ -2,11 +2,5 @@ for ( i range ( 16 ) ) echo << i
 
 i = 1 , 2
 
-for ( j i ) echo << j
+for ( j i ) j [ echo = true ]
 
-
-fun array {
-_echo_ {
-}
-
-}
