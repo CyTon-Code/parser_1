@@ -56,6 +56,7 @@ cout : ;
 // but just an ordinary variable that has lost its methods, etc.
 
 
-// after executing your script, the interpreter starts, so an explicit exit is required:
+// after executing your script, the interpreter starts,
+// so an explicit exit is required:
 exit
 
