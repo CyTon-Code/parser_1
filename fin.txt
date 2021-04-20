@@ -16,9 +16,10 @@ foreach i , args
 
 
 // demonstration of how adding to an array works:
-j << 1 , 2 // array { 1 2 }
-j << 1 , 2 // array { 1 2 1 2 }
-
+j << 1 , 2 //  -  array { 1 2 }
+//
+j << 1 , 2 //  -  array { 1 2 1 2 }
+//
 
 // display the array on the screen:
 foreach ( i j )
@@ -27,7 +28,7 @@ foreach ( i j )
 
 
 // demonstration of how assignment works:
-j : 1 2 ; // array { 1 2 }
+j : 1 2 ; //  -  array { 1 2 }
 
 
 // create an operator to display "i":
@@ -36,7 +37,7 @@ echo << array { i [ print << true ] }
 
 // display the array on the screen:
 foreach i , j
-  echo // i [ print << true ]
+  echo //  -  i [ print << true ]
 // 1 2
 
 
@@ -46,15 +47,24 @@ j [ print << true ]
 
 
 // the add method for this object redirects resources to the screen:
-cout << j
+cout << j //  -  
 // array { 1 2 }
 
 
 // now this object does not assign anything to itself,
 // losing all settings and methods, as well as data:
-cout : ;
-// now it is not an object for displaying data on the screen,
-// but just an ordinary variable that has lost its methods, etc.
+cout : ; //  -  
+
+
+/*
+  echo  -  now it is not an object for displaying data on the screen,
+  but just an ordinary variable that has lost its methods, etc.
+*/
+
+
+// adding elements to an array:
+cout << j //  -  array { 1 2 }
+//
 
 
 // after executing your script, the interpreter starts,
