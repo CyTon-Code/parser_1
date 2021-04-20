@@ -36,6 +36,4 @@ foreach i , j
 // 1 2
 
 j [ echo << true ]
-// array 1 , 2
-// or:
 // array { 1 2 }
