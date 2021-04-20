@@ -1,6 +1,8 @@
+foreach ( i , range ( 16 ) ) i [ echo << true ]
 foreach i , range ( 16 ) i [ echo << true ]
 
 j << 1 , 2
 
 foreach ( i j ) i [ echo << true ]
+foreach i , j i [ echo << true ]
 
